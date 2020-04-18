@@ -1,0 +1,111 @@
+*:focus {
+	outline: none !important;
+}
+
+body {
+	background-color: #C8C2AA;
+	background-size: 4px 4px;
+	background-image: linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,.07) 4px), linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
+	color: #4D493E;
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 300;
+	margin: 0;
+	min-height: 100vh;
+	box-shadow: inset 0 0 150px rgba(77, 73, 62, 0.50), inset 0 0 150px rgba(77, 73, 62, 0.3);
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	letter-spacing: .1rem;
+}
+
+.container {
+	padding: 0 4rem;
+}
+
+header {
+	padding: 1rem 0;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: .7rem;
+	text-shadow: .3rem .3rem 0 rgba(77, 73, 62,.3);
+}
+
+.patternTop {
+	background-image: url("images/Dots.png");
+	background-size: 40px;
+	margin-top: 10px;
+	color: transparent;
+}
+
+.patternBottom {
+	transform: scaleY(-1);
+	background-image: url("images/Dots.png");
+	background-size: 40px;
+	margin-bottom: 10px;
+	color: transparent;
+}
+
+.button1 {
+	cursor: pointer;
+	overflow: visible;
+	padding: .4rem 2%;
+	background-color: rgba(77, 73, 62, .35);
+	margin-left: 40px;
+	margin-right: 40px;
+	color: #4D493E;
+	transition: ease 300ms;
+	text-decoration: none;
+	width: 200px;
+}
+
+	.button1:hover, .button1:focus {
+		background-color: #4D493E;
+		transition: ease 300ms;
+		color: #C8C2AA;
+		border-color: #4D493E;
+	}
+
+.screenshots {
+	background-color: rgba(77, 73, 62, .1);
+	overflow-y: scroll;
+	height: 500px;
+	text-align: center;
+}
+
+.content {
+	padding-left: 4rem;
+	margin-bottom: 2rem;
+	background-image: linear-gradient(90deg, rgba(77, 73, 62, 0.2), rgba(77, 73, 62, .2) 14px, transparent 14px, transparent 20px, rgba(77, 73, 62, .2) 20px, rgba(77, 73, 62, .2) 23px, transparent 23px);
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	margin: 1%;
+}
+
+footer {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-size-adjust:inherit 50%;
+}
+
+.ButtonParent {
+	background-image: url("images/Pointer.png");
+	background-position-y: center;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	width: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
