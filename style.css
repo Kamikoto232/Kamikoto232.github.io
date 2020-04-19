@@ -70,8 +70,6 @@ h1 {
 
 .screenshots {
 	background-color: rgba(77, 73, 62, .1);
-	overflow-y: scroll;
-	height: 500px;
 	text-align: center;
 }
 
