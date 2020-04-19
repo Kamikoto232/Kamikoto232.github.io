@@ -82,6 +82,8 @@ h1 {
 }
 
 .center {
+	padding-left: 4rem;
+	padding-right: 4rem;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
